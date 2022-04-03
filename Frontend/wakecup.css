@@ -777,6 +777,120 @@ nav .fa-solid{
 }
 /*--End BrewingEquipment--------------------------------------------------------------*/
 
+/*<!--Contact--------------------------------------------------------------->*/
+.Contact{
+    margin: 4%;
+    width: 92%;
+    top: 80px;
+    border-radius: 25px;
+    /*border: solid red;*/
+    position: absolute;
+    display: grid;
+    grid-template-rows: repeat 40px 1fr 1fr;
+    grid-template-columns: 1fr;
+    z-index: 1;
+    grid-gap: 20px;
+}
+.Contact .pg_name{
+    background-color: transparent;
+    grid-column: 1 /-1;
+    text-align: left;
+    border-radius: 20px;
+    padding: 10px;
+}
+.Contact .pg_name h1{
+    font-size: 50px;
+    color: #4c3832;
+}
+.Contact .pg_body{
+    background-color: rgba(165, 42, 42, 0.5);
+    grid-column: 1;
+    grid-row: 3;
+   text-align: left;
+   border-radius: 25px;
+   padding: 50px;
+   color: #4c3832;
+}
+
+
+/*<!--Contact---END------------------------------------------------------------>*/
+
+/*<!--OurCafes---------------------------------------------------------------->*/
+.OurCafes{
+    margin-top: 1%;
+    margin-left: 4%;
+    width: 92%;
+    top: 80px;
+    border-radius: 25px;
+    position: absolute;
+    display: grid;
+    grid-template-rows: repeat 40px 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    z-index: 1;
+    grid-gap: 3px;
+}
+.OurCafes .pg_name{
+    background-color: transparent;
+    grid-column: 1 /-1;
+    text-align: left;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+.OurCafes .pg_name h1{
+    font-size: 50px;
+}
+/*.OurCafes .headline{
+    background-color: rgba(36, 56, 167, 0.5);
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    border-radius: 25px;
+    padding: 15px;
+}
+.OurCafes .headline p{
+    font-size: 20px;
+    padding: 10px;
+}*/
+.OurCafes .pg_body{
+    background-color: transparent;
+    grid-column: 1;
+    grid-row: 4;
+    text-align: left;
+    border-radius: 25px;
+    padding: 20px;
+}
+.OurCafes .pg_body h1{
+    font-size: 25px;
+
+}
+.OurCafes .pg_body .source1{
+    width: 90%;
+    background-color: rgba(36, 56, 167, 0.5);
+    justify-content: center;
+    padding: 7px;
+    border-radius: 10px;
+    border: solid rgba(36, 56, 167, 0.5);
+}
+.OurCafes .pg_body .source2{
+    width: 90%;
+    background-color: rgba(36, 56, 167, 0.5);
+    justify-content: center;
+    padding: 7px;
+    border-radius: 10px;
+    border: solid rgba(36, 56, 167, 0.5);
+}
+.OurCafes .pg_body .source3{
+    width: 90%;
+    background-color: rgba(36, 56, 167, 0.5);
+    justify-content: center;
+    padding: 7px;
+    border-radius: 10px;
+    border: solid rgba(36, 56, 167, 0.5);
+}
+/*<!--OurCafes-----------END----------------------------------------------------->*/
+
 
 
 
